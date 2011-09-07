@@ -2,10 +2,6 @@ import imp
 fb = imp.load_source('fb', 'fbconsole.py')
 
 """
-https://graph.facebook.com/oauth/access_token?client_id=243799762330010&client_secret=ae16e9ccb34a2a52398c659a20f3297b&grant_type=client_credentials"
-"""
-
-"""
 First we need to obtain access token for application management:
 https://graph.facebook.com/oauth/access_token?client_id=%s&client_secret=%s&grant_type=client_credentials"
 """
